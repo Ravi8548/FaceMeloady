@@ -1,36 +1,22 @@
-# 🎵 Music Generation Based on Facial Expression using YouTubeDL
+# emotion-based-music
+<h1>Explaination Video</h1>
+<a href="https://youtu.be/uDzLxos0lNU">Emotion based music | ai | deep learning project | with code | ml project</a>
+<a href="https://youtu.be/uDzLxos0lNU"><img src="emotion.jpg"/></a>
 
-An AI-driven project that detects facial expressions in real-time and generates or recommends music accordingly. By combining computer vision and deep learning for emotion detection with YouTubeDL for dynamic music retrieval, this system bridges the emotional state of the user with music that reflects or enhances their mood.
+<h1>Description</h1>
+Welcome to new project emotion based music built by using mediapipe and keras. also opencv and streamlit is used to create a webapp. for capturing the webcam in the browser i used streamlit-webrtc module. I explained all of the code in this video which is required to create a webapp for emotion based music recommender.
+<br><br>
+In this video I used live emoji project code to create a model which could classify different emotions so I already explained the code for that which is over here
+<br>Data Collection script : https://youtu.be/ZxZSGRdTLtE
+<br>Data Training and Inference script : https://youtu.be/He_oZ-MnIrU
+<br>code for live emoji : https://github.com/Pawandeep-prog/liveEmoji
 
----
-
-## 🚀 Features
-
-- 🎯 Real-time **facial emotion detection** using OpenCV and CNN-based deep learning models.
-- 🧠 Emotion-to-music **genre mapping** for mood-based personalization.
-- 🎧 Automatically fetches and plays music from **YouTube** using the `youtube_dl` library.
-- 💡 Lightweight and **interactive interface** for live testing and playback.
-
----
-
-## 🧠 How It Works
-
-1. Captures video frames from the webcam.
-2. Detects facial landmarks and extracts emotion using a trained model.
-3. Maps the detected emotion (e.g., Happy, Sad, Angry, Neutral) to a suitable music genre.
-4. Uses `youtube_dl` to search and download a matching song from YouTube.
-5. Plays the music using a system-level player or embedded audio module.
-
----
-
-## 🛠️ Tech Stack
-
-- **Language**: Python  
-- **Libraries**: OpenCV, TensorFlow/Keras, youtube_dl, NumPy, Pandas  
-- **Model**: Pre-trained CNN for facial emotion recognition  
-- **Other Tools**: VLC / playsound for audio playback (optional)
-
----
-
-## 📁 Project Structure
-
+<h1>Connect with me</h1>
+If you have any queries regarding any of the topic I discussed in this video feel free to talk to e using below links:<br>
+facebook : https://m.facebook.com/proogramminghub<br>
+instagram : @programming_hut<br>
+twitter : https://twitter.com/programming_hut<br>
+github : https://github.com/Pawandeep-prog<br>
+discord : https://discord.gg/G5Cunyg<br>
+linkedin : https://www.linkedin.com/in/programminghut<br>
+youtube : https://www.youtube.com/c/programminghutofficial<br>
