@@ -1,22 +1,45 @@
-# emotion-based-music
-<h1>Explaination Video</h1>
-<a href="https://youtu.be/uDzLxos0lNU">Emotion based music | ai | deep learning project | with code | ml project</a>
-<a href="https://youtu.be/uDzLxos0lNU"><img src="emotion.jpg"/></a>
+🎵 FaceMelody – A Real-Time Facial Emotion-Based Music Recommender System 🎶
+Built with Machine Learning | Computer Vision | YouTube-DL
 
-<h1>Description</h1>
-Welcome to new project emotion based music built by using mediapipe and keras. also opencv and streamlit is used to create a webapp. for capturing the webcam in the browser i used streamlit-webrtc module. I explained all of the code in this video which is required to create a webapp for emotion based music recommender.
-<br><br>
-In this video I used live emoji project code to create a model which could classify different emotions so I already explained the code for that which is over here
-<br>Data Collection script : https://youtu.be/ZxZSGRdTLtE
-<br>Data Training and Inference script : https://youtu.be/He_oZ-MnIrU
-<br>code for live emoji : https://github.com/Pawandeep-prog/liveEmoji
+🔍 Overview:
+FaceMelody is an intelligent music recommendation system that uses real-time facial emotion recognition to suggest mood-based music. The system captures a person’s facial expressions using a webcam, processes the visual data using computer vision techniques, predicts the emotional state using a trained machine learning model, and automatically fetches and plays matching songs via YouTube using the youtube-dl module.
 
-<h1>Connect with me</h1>
-If you have any queries regarding any of the topic I discussed in this video feel free to talk to e using below links:<br>
-facebook : https://m.facebook.com/proogramminghub<br>
-instagram : @programming_hut<br>
-twitter : https://twitter.com/programming_hut<br>
-github : https://github.com/Pawandeep-prog<br>
-discord : https://discord.gg/G5Cunyg<br>
-linkedin : https://www.linkedin.com/in/programminghut<br>
-youtube : https://www.youtube.com/c/programminghutofficial<br>
+🧠 Core Technologies:
+
+A) Machine Learning
+
+* Custom-trained emotion detection model on real-time facial data
+* Emotion classes include: Happy, Sad, Angry, Neutral, Surprised, etc.
+* Model trained using OpenCV-captured datasets augmented with real-time facial features
+
+B) Computer Vision
+
+* Real-time facial feature detection using OpenCV
+* Preprocessing includes grayscale conversion, histogram equalization, and face alignment
+* Emotion classification using CNN-based architecture
+
+C) youtube-dl Integration
+
+* Dynamic retrieval of YouTube videos matching predicted emotion (e.g., "happy Bollywood songs")
+* Automated playback using subprocess interface
+* Minimal latency for real-time user response
+
+🎯 Key Features:
+
+* Personalized music experience based on current mood
+* Lightweight desktop application interface
+* Model trained on actual user’s facial data for high accuracy
+* No pre-collected datasets — built entirely on real-time data acquisition
+
+🚀 Outcome:
+FaceMelody provides an emotionally adaptive entertainment experience. By combining real-time computer vision with machine learning and seamless integration with online media, this project showcases the intersection of emotion AI and multimedia personalization.
+
+🛠️ Tools & Libraries Used:
+
+* Python, OpenCV, TensorFlow/Keras, youtube-dl, NumPy, matplotlib
+* Real-time webcam data capture and live model inference
+
+📹 Demo Video & Code Repository (Optional):
+\[Attach YouTube Demo or GitHub Link]
+
+
