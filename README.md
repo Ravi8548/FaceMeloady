@@ -39,7 +39,6 @@ FaceMelody provides an emotionally adaptive entertainment experience. By combini
 * Python, OpenCV, TensorFlow/Keras, youtube-dl, NumPy, matplotlib
 * Real-time webcam data capture and live model inference
 
-📹 Demo Video & Code Repository (Optional):
-\[Attach YouTube Demo or GitHub Link]
+
 
 
